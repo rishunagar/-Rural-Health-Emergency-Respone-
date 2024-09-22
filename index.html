@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Healthcare Emergency Response</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Rural Healthcare Emergency Response</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section>
+        <h2>Welcome to the Rural Healthcare Emergency Response Website</h2>
+        <p>We provide quick access to emergency healthcare services in rural areas. Get help now!</p>
+        <button onclick="startChat()">Get Emergency Help</button>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot">
+        <div id="chatbox">
+            <p><strong>Chatbot:</strong> Hello! How can we assist you in this emergency?</p>
+            <input type="text" id="userInput" placeholder="Type your message here..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
